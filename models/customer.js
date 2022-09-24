@@ -78,6 +78,17 @@ class Customer {
       );
     }
   }
+
+    // 
+    /*
+    Add a function, fullName, to the Customer class. This should (for now) return first and last names joined by a 
+    space. Change the templates to refer directly to this.
+    */
+    async fullName(){
+        return `${this.firstName} ${this.lastname}`;
+    }
 }
+
+
 
 module.exports = Customer;
